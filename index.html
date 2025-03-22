@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./output.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+      <nav
+        class="max-w-[1440px] container mx-auto px-4 py-4 flex items-center justify-between"
+      >
+        <a href="index.html">
+          <h3 class="text-[20px] md:text-2xl font-bold">
+            ADENIJI ADEWALE JOHN.
+            <span class="font-light text-2xl md:text-3xl">Frontend-Dev</span>
+          </h3>
+        </a>
+        <!--ancher tag-->
+        <ul class="hidden md:flex justify-center gap-5">
+          <li
+            class="bg-blue-600 text-center p-2 rounded-full hover:scale-110 transition-all duration-300"
+          >
+            <a href="projects.html" class="text-[15px] text-center text-white"
+              >Projects</a
+            >
+          </li>
+          <li
+            class="bg-blue-600 text-center px-4 py-2 rounded-full hover:scale-110 transition-all duration-300"
+          >
+            <a href="about.html" class="text-[13px] text-center text-white"
+              >About</a
+            >
+          </li>
+          <li
+            class="bg-blue-600 text-center p-2 rounded-full hover:scale-110 transition-all duration-300"
+          >
+            <a href="contact.html" class="text-[13px] text-center text-white"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <div class="block items-end md:hidden" id="js-hidden">
+          <button class="cursor-pointer">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+
+        <!--hidden untill click-->
+        <div
+          class="hidden bg-white px-4 py-2 space-y-0.5 mt-15 absolute top-0 left-0 right-0"
+          id="js-view"
+        >
+          <div
+            class="text-2xl text-center bg-gray-300 w-10 font-light self-end rounded-2xl transition-all duration-300 hover:translate-x-2 cursor-pointer"
+            id="js-close"
+          >
+            X
+          </div>
+          <button
+            class="text-start bg-gray-300 px-3 py-1 w-full rounded-2xl transition-all duration-300 hover:translate-x-2"
+          >
+            <a href="projects.html">Projects</a>
+          </button>
+          <button
+            class="text-start bg-gray-300 px-3 py-1 w-full rounded-2xl transition-all duration-300 hover:translate-x-2"
+          >
+            <a href="about.html">About</a>
+          </button>
+          <button
+            class="text-start bg-gray-300 px-3 py-1 w-full rounded-2xl transition-all duration-300 hover:translate-x-2"
+          >
+            <a href="contact.html">Contact</a>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!--self-intro-->
+    <section class="flex justify-center items-center mt-20">
+      <div
+        class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-x-4 bg-blue-700 mb-5 h-[700px] md:h-100 max-w[700px] px-3 py-3 shadow-lg"
+      >
+        <div class="p-2">
+          <p class="text-3xl text-white font-bold">ADENIJI ADEWALE J</p>
+          <h1 class="text-3xl text-white font-bold">
+            Self-taught Front-End Developer
+          </h1>
+          <p class="text-2xl text-white size-2/3">
+            I build and structure web and moblie sites and apps, with a good
+            layout and responsive designs and functionalities.
+          </p>
+        </div>
+
+        <div class="flex justify-center items-cente p-3 border-l-black-200">
+          <img
+            src="./images/car-dev-1.jpg"
+            alt="slef-pic"
+            class="w-full rounded-2xl transition-all duration-300 hover:scale-105"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="flex flex-col justify-center items-center mx-2">
+        <h2 class="text-2xl font-bold underline">ARTICLE</h2>
+        <article
+          class="grid place-items-center min-h-screen grid-cols-1 md:grid-cols-2 gap-5 max-w-full"
+        >
+          <div class="p-2">
+            <img src="./images/front-article.png" alt="" class="md:w-130" />
+          </div>
+          <div class="p-2">
+            <h3 class="text-2xl font-bold">Introduction</h3>
+            <p class="p-4">
+              In today's digital world, websites and web applications have
+              become an integral part of our lives. Whether you are browsing an
+              e-commerce platform, reading a blog, or using a social media site,
+              the user interface you interact with is built using frontend
+              programming. This article explores what frontend programming is,
+              the technologies involved, and how to get started as a frontend
+              developer.
+            </p>
+          </div>
+
+          <div class="p-2">
+            <h3 class="text-2xl font-bold">What is Frontend Programming?</h3>
+            <p class="p-4">
+              Frontend programming refers to the development of the visual and
+              interactive aspects of a website or web application. It involves
+              creating elements that users see and interact with, such as
+              buttons, menus, forms, and animations. The goal is to build a
+              seamless and user-friendly experience.
+            </p>
+          </div>
+
+          <div class="p-2">
+            <img src="./images/front-article-2.png" alt="" class="md:w-130" />
+          </div>
+        </article>
+        <!--technologies-->
+        <div
+          class="flex flex-col justify-center items-center bg-gray-300 shadow-lg md:w-[1440px] rounded-2xl max-w-full p-4 mx-3 mb-10"
+        >
+          <h3 class="text-2xl font-bold mb-10">
+            Core Technologies in Frontend Development.
+          </h3>
+
+          <div
+            class="grid grid-cols-1 place-content-center p-2 g md:grid-cols-3 space-y-3 gap-x-10"
+          >
+            <div
+              class="space-y-2 p-4 w-50 hover:border-2 rounded-2xl hover: border-blue-500 transition-all duration-300 hover:scale-110"
+            >
+              <i class="fa-brands fa-html5 text-5xl"></i>
+              <h4>
+                HTML <br />
+                (HyperText Markup Language)
+              </h4>
+              <p class="">
+                HTML provides the basic structure of a webpage. It defines
+                elements such as headings, paragraphs, images, links, and forms.
+              </p>
+            </div>
+
+            <div
+              class="space-y-2 p-4 rounded-2xl w-50 hover:border-2 hover: border-blue-500 transition-all duration-300 hover:scale-110"
+            >
+              <i class="fa-brands fa-css3-alt text-5xl"></i>
+              <h4>
+                CSS <br />
+                (Cascading Styles Sheets)
+              </h4>
+              <p class="">
+                CSS is used to style HTML elements, control layout, and make the
+                website visually appealing.
+              </p>
+            </div>
+
+            <div
+              class="space-y-2 p-4 rounded-2xl w-50 hover:border-2 hover: border-blue-500 transition-all duration-300 hover:scale-110"
+            >
+              <i class="fa-brands fa-js text-5xl"></i>
+              <h4>
+                JS <br />
+                (JavaScript)
+              </h4>
+              <p class="">
+                JavaScript adds interactivity and dynamic behavior to web pages,
+                enabling features like real-time updates, animations, and event
+                handling.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="">
+      <div
+        class="flex flex-col justify-center items-center bg-white shadow-lg shadow-gray-400 rounded-2xl mb-20 mx-2 p-4"
+      >
+        <h3 class="text-2xl font-bold text-center">
+          Popular Frontend Frameworks and Libraries
+        </h3>
+        <p class="text-center">
+          To enhance efficiency and productivity, developers use various
+          frontend frameworks and libraries.
+        </p>
+
+        <div
+          class="flex flex-col justify-evenly items-center mx-3 md:flex-row mt-8 gap-1"
+        >
+          <div
+            class="w-60 h-60 text-center text-white bg-blue-600 p-4 transition-all duration-300 hover:scale-103"
+          >
+            <i class="fa-brands fa-react text-5xl"></i>
+            <h4>React.js</h4>
+            <p class="">
+              A component-based JavaScript library for building dynamic user
+              interfaces.
+            </p>
+          </div>
+
+          <div
+            class="w-60 h-60 text-center text-white bg-blue-600 p-4 transition-all duration-300 hover:scale-103"
+          >
+            <i class="fa-brands fa-vuejs text-5xl"></i>
+            <h4>Vue.js</h4>
+            <p class="">
+              A lightweight and progressive framework that is easy to integrate.
+            </p>
+          </div>
+
+          <div
+            class="w-60 h-60 text-center text-white bg-blue-600 p-4 transition-all duration-300 hover:scale-103"
+          >
+            <i class="fa-brands fa-angular text-5xl"></i>
+            <h4>Angular</h4>
+            <p class="">
+              A comprehensive frontend framework developed by Google for
+              building complex applications.
+            </p>
+          </div>
+
+          <div
+            class="w-60 h-60 text-center text-white bg-blue-600 p-4 transition-all duration-300 hover:scale-103"
+          >
+            <div class="flex justify-center">
+              <img src="./images/tailwind-logo.png" alt="" class="size-11" />
+            </div>
+
+            <h4 class="mt-3">Tailwind CSS</h4>
+            <p>A utility-first CSS framework that simplifies styling.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="flex flex-col md:flex-row justify-between p-5 bg-gray-600">
+      <div class="flex flex-col gap-5">
+        <h3 class="text-2xl font-bold text-white">Social media</h3>
+        <div class="flex items-center gap-5">
+          <div
+            class="flex bg-blue-600 justify-center items-center rounded-full w-10 h-10 transition-all duration-300 hover:-translate-y-1"
+          >
+            <i class="fa-brands fa-facebook text-2xl text-white"></i>
+          </div>
+
+          <div
+            class="flex bg-black justify-center items-center rounded-full w-10 h-10 transition-all duration-300 hover:-translate-y-1"
+          >
+            <i class="fa-brands fa-x-twitter text-2xl text-white"></i>
+          </div>
+          <div
+            class="flex bg-red-600 justify-center items-center rounded-full w-10 h-10 transition-all duration-300 hover:-translate-y-1"
+          >
+            <i class="fa-brands fa-instagram text-2xl text-white"></i>
+          </div>
+
+          <div
+            class="flex bg-black justify-center items-center rounded-full w-10 h-10 transition-all duration-300 hover:-translate-y-1"
+          >
+            <i class="fa-brands fa-github text-2xl text-white"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5">
+        <p class="text-white">
+          &copy; 2025 Adeniji Adewale J. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

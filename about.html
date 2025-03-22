@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="./output.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+      <nav
+        class="max-w-[1440px] container mx-auto px-4 py-4 flex items-center justify-between"
+      >
+        <a href="index.html">
+          <h3 class="text-[20px] md:text-2xl font-bold">
+            ADENIJI ADEWALE JOHN.
+            <span class="font-light text-2xl md:text-3xl">Frontend-Dev</span>
+          </h3>
+        </a>
+        <!--ancher tag-->
+        <ul class="hidden md:flex justify-center gap-5">
+          <li
+            class="bg-blue-600 text-center p-2 rounded-full hover:scale-110 transition-all duration-300"
+          >
+            <a href="projects.html" class="text-[15px] text-center text-white"
+              >Projects</a
+            >
+          </li>
+          <li
+            class="bg-blue-600 text-center px-4 py-2 rounded-full hover:scale-110 transition-all duration-300"
+          >
+            <a href="about.html" class="text-[13px] text-center text-white"
+              >About</a
+            >
+          </li>
+          <li
+            class="bg-blue-600 text-center p-2 rounded-full hover:scale-110 transition-all duration-300"
+          >
+            <a href="contact.html" class="text-[13px] text-center text-white"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <div class="block items-end md:hidden" id="js-hidden">
+          <button class="cursor-pointer">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+
+        <!--hidden untill click-->
+        <div
+          class="hidden bg-white px-4 py-2 space-y-0.5 mt-15 absolute top-0 left-0 right-0"
+          id="js-view"
+        >
+          <div
+            class="text-2xl text-center bg-gray-300 w-10 font-light self-end rounded-2xl transition-all duration-300 hover:translate-x-2 cursor-pointer"
+            id="js-close"
+          >
+            X
+          </div>
+          <button
+            class="text-start bg-gray-300 px-3 py-1 w-full rounded-2xl transition-all duration-300 hover:translate-x-2"
+          >
+            <a href="projects.html">Projects</a>
+          </button>
+          <button
+            class="text-start bg-gray-300 px-3 py-1 w-full rounded-2xl transition-all duration-300 hover:translate-x-2"
+          >
+            <a href="about.html">About</a>
+          </button>
+          <button
+            class="text-start bg-gray-300 px-3 py-1 w-full rounded-2xl transition-all duration-300 hover:translate-x-2"
+          >
+            <a href="contact.html">Contact</a>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <section class="mt-20 mx-2 mb-5">
+      <div class="">
+        <h3 class="text-2xl">My Frontend Development Journey</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 place-items-center p-auto">
+          <div class="flex flex-col justify-center items-center p-5">
+            <p>
+              My name is Adeniji Adewale John, and I am a self-taught frontend
+              developer. My journey into web development began in October 2023,
+              driven by a deep passion for technology and a desire to build
+              user-friendly web applications.
+            </p>
+
+            <p>
+              Starting from scratch, I have dedicated countless hours to
+              learning and mastering HTML, CSS, JavaScript, and Tailwind CSS. As
+              a self-learner, the process has been both challenging and
+              rewarding. There were moments of frustration, but my determination
+              kept me going. To reinforce my knowledge, I actively built
+              projects, applying what I learned to real-world scenarios. These
+              projects not only enhanced my skills but also deepened my
+              problem-solving abilities and understanding of frontend
+              development.
+            </p>
+
+            <p>
+              Now, I am transitioning to React, a powerful JavaScript library
+              that will allow me to create dynamic, interactive, and scalable
+              web applications. I believe learning React will take my frontend
+              development skills to the next level and open doors to even
+              greater opportunities.
+            </p>
+
+            <p>
+              Despite the challenges, my journey as a self-taught developer has
+              been incredibly fulfilling. I am excited about the future, eager
+              to keep learning, and committed to becoming an expert in frontend
+              development. The road ahead may not be easy, but I am ready to
+              embrace every challenge and grow even further in this field
+            </p>
+          </div>
+          <div class="flex justify-center items-center">
+            <img
+              src="./images/about-me-for-port.jpg"
+              alt=""
+              class="w-100 rounded-2xl"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="mt-8">
+        <h2 class="text-2xl text-gray-700 px-4">My Tech Stack</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 px-4 mt-4 mb-4">
+          <span
+            class="bg-gray-200 px-4 py-2 rounded-md text-gray-700 text-center transition-all duration-300 hover:scale-103"
+            >HTML</span
+          >
+          <span
+            class="bg-gray-200 px-4 py-2 rounded-md text-gray-700 text-center transition-all duration-300 hover:scale-103"
+            >CSS</span
+          >
+          <span
+            class="bg-gray-200 px-4 py-2 rounded-md text-gray-700 text-center transition-all duration-300 hover:scale-103"
+            >JavaScript</span
+          >
+          <span
+            class="bg-gray-200 px-4 py-2 rounded-md text-gray-700 text-center transition-all duration-300 hover:scale-103"
+            >Tailwind CSS</span
+          >
+          <span
+            class="bg-gray-200 px-4 py-2 rounded-md text-gray-700 text-center transition-all duration-300 hover:scale-103"
+            >React (Learning)</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="mt-8 mb-4">
+        <h2 class="text-2xl font-semibold text-gray-700 px-4">
+          Projects & Achievements
+        </h2>
+        <p class="mt-2 text-gray-600 px-4">
+          I have worked on several projects, including a banking UI, a weather
+          app, and a recipe finder app. Each project has helped me refine my
+          coding skills and understand real-world application development.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="mt-8 px-4 mb-4">
+        <h2 class="text-2xl font-semibold text-gray-700">Fun Facts About Me</h2>
+        <ul class="list-disc ml-6 text-gray-600">
+          <li>I have a strong passion for music and feel called to it.</li>
+          <li>I'm deeply devoted to my Christian faith.</li>
+          <li>I'm always looking for international job opportunities.</li>
+          <li>I enjoy learning new technologies and building projects.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="flex flex-col md:flex-row justify-between p-5 bg-gray-600">
+      <div class="flex flex-col gap-5">
+        <h3 class="text-2xl font-bold text-white">Social media</h3>
+        <div class="flex items-center gap-5">
+          <div
+            class="flex bg-blue-600 justify-center items-center rounded-full w-10 h-10 transition-all duration-300 hover:-translate-y-1"
+          >
+            <i class="fa-brands fa-facebook text-2xl text-white"></i>
+          </div>
+
+          <div
+            class="flex bg-black justify-center items-center rounded-full w-10 h-10 transition-all duration-300 hover:-translate-y-1"
+          >
+            <i class="fa-brands fa-x-twitter text-2xl text-white"></i>
+          </div>
+          <div
+            class="flex bg-red-600 justify-center items-center rounded-full w-10 h-10 transition-all duration-300 hover:-translate-y-1"
+          >
+            <i class="fa-brands fa-instagram text-2xl text-white"></i>
+          </div>
+
+          <div
+            class="flex bg-black justify-center items-center rounded-full w-10 h-10 transition-all duration-300 hover:-translate-y-1"
+          >
+            <i class="fa-brands fa-github text-2xl text-white"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5">
+        <p class="text-white">
+          &copy; 2025 Adeniji Adewale J. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
